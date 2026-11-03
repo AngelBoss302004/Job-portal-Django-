@@ -1,0 +1,36 @@
+###
+POST http://127.0.0.1:8000/addjob/
+Content-Type: application/json
+
+{
+    "company_name": "TCS",
+    "job_title": "Python Developer",
+    "location": "Kochi",
+    "salary": 25000,
+    "job_type": "Full Time",
+    "experience": "Fresher"
+}
+###
+POST http://127.0.0.1:8000/getjobs/
+Content-Type: application/json
+
+{
+    "id": 1
+}
+
+###
+POST http://127.0.0.1:8000/updatejob/
+Content-Type: application/json
+
+{
+    "id": 1,
+    "company_name": "Infosys",
+    "job_title": "Python Full Stack Developer",
+    "location": "Kakkanad",
+    "salary": 30000,
+    "job_type": "Full Time",
+    "experience": "Fresher"
+
+}
+
+
